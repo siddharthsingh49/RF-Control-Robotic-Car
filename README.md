@@ -34,7 +34,8 @@ A complete, in-depth guide to building an RF (Radio Frequency) controlled roboti
 24. [Future Scope](#24-future-scope)
 
 ---
-<img width="446" height="586" alt="Wiring-L298N-Motor-Driver-Module-with-DC-TT-motors-and-Arduino-UNO" src="https://github.com/user-attachments/assets/2b214956-2160-4d1b-ae94-2f18f4fe74bf" />
+<img width="1599" height="1599" alt="RF Car" src="https://github.com/user-attachments/assets/69e6ea8c-5406-4a74-955c-0695125fde45" />
+
 
 ## 1. Introduction
 
@@ -78,6 +79,7 @@ RF (433 MHz) is chosen for this project because it strikes the best balance of *
 
 ## 3. Working Principle (Detailed)
 
+
 Step-by-step signal journey from button press to wheel movement:
 
 1. **Button Press (TX side):** Pressing a button connects a specific pin of the HT12E encoder IC to logic HIGH or LOW, representing one "data" bit combination.
@@ -88,7 +90,6 @@ Step-by-step signal journey from button press to wheel movement:
 6. **Decoding:** The HT12D decoder receives this stream, checks whether the address bits match its own hardwired address. If they match, it converts the serial data back into **parallel output pins** (VT pin also goes HIGH to confirm valid transmission).
 7. **Motor Driving:** The parallel output pins (representing forward/backward/left/right) are fed into the L293D motor driver's input pins, which switches internal transistors (H-bridge) to control current direction through the DC motors.
 8. **Mechanical Motion:** The motors rotate in the commanded direction, and the car moves.
-
 ```
 Button Press
    ↓
