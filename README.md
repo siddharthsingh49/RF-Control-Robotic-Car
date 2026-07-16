@@ -56,7 +56,6 @@ There is no wired connection between the two — all communication happens via a
 ---
 
 ## 2. What is RF and Why Use It
-RF-remote-transmitter-circuit-diagram.webp
 
 **Radio Frequency (RF)** refers to electromagnetic waves in the range of roughly 3 kHz to 300 GHz that can be used to carry information wirelessly. For hobby robotics, the most common bands are **433 MHz** and **315 MHz** because:
 
