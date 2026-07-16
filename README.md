@@ -34,6 +34,7 @@ A complete, in-depth guide to building an RF (Radio Frequency) controlled roboti
 24. [Future Scope](#24-future-scope)
 
 ---
+<img width="446" height="586" alt="Wiring-L298N-Motor-Driver-Module-with-DC-TT-motors-and-Arduino-UNO" src="https://github.com/user-attachments/assets/2b214956-2160-4d1b-ae94-2f18f4fe74bf" />
 
 ## 1. Introduction
 
