@@ -723,6 +723,7 @@ void loop() {
 
 *(Prices vary significantly by region and vendor; microcontroller-based versions add Rs.300-600 / $4-7 for the board.)*
 
+
 ---
 
 ## 24. Future Scope
@@ -736,7 +737,6 @@ void loop() {
 - Add encoders on wheels for closed-loop speed/distance control
 
 ---
-
 ## License
 
 This project documentation is free to use and modify for educational purposes.
