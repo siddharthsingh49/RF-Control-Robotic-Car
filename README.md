@@ -1,5 +1,6 @@
 # RF-Control-Robotic-Car
-# RF Controlled Robotic Car
+An RF (Radio Frequency) controlled car uses radio signals instead of infrared or Bluetooth to control a robot wirelessly. Unlike IR, RF doesn't need line-of-sight and works over longer range (up to 100+ meters with the right modules), which is why it's popular for these projects.
+The system has two halves: a transmitter (handheld remote you control) and a receiver (mounted on the car with Arduino and motors).
 
 A complete, in-depth guide to building an RF (Radio Frequency) controlled robotic car — covering RF theory, IC-level internal working, full circuit design, block diagrams, flowcharts, code logic, testing, troubleshooting, and applications.
 
