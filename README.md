@@ -78,6 +78,8 @@ RF (433 MHz) is chosen for this project because it strikes the best balance of *
 ---
 
 ## 3. Working Principle (Detailed)
+<img width="1600" height="728" alt="circuit daigram RF Car" src="https://github.com/user-attachments/assets/413b883c-cff1-476b-a371-1cd35a82543c" />
+
 
 
 Step-by-step signal journey from button press to wheel movement:
